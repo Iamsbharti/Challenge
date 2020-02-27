@@ -22,7 +22,6 @@ function findOutlier(integers){
        element%2==0 ? even_arr.push(element): odd_arr.push(element);
    });
    
-   //console.log('even;_arr:'+even_arr+'::odd_arr:'+odd_arr+'::'+even_flag+'::'+odd_flag);
    return even_arr.length===1 ? even_arr[0] : odd_arr[0];
 }
   
